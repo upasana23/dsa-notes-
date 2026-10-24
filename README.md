@@ -1,3 +1,4 @@
+💻 C DSA Projects
 A structured, project-based journey through Data Structures and Algorithms (DSA) using C — progressing from fundamental data structures and searching algorithms to graph theory, algorithmic optimization, file indexing, and production-inspired systems.
 
 This repository is not a collection of random coding exercises or copied DSA solutions.
