@@ -1,1 +1,10 @@
-Commit 1 at 2025-08-15T15:54:51.705Z
+/*
+ * Program 01: Hello World and Basic Output
+ * Topic: Basic Syntax & I/O
+ */
+#include <stdio.h>
+
+int main(void) {
+    printf("Hello, World! Welcome to C Programming.\n");
+    return 0;
+}

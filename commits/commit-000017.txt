@@ -1,1 +1,24 @@
-Commit 17 at 2025-11-20T15:54:51.706Z
+/*
+ * Program 17: Check Prime Number
+ * Topic: Number Theory & Optimization
+ */
+#include <stdio.h>
+#include <stdbool.h>
+
+bool isPrime(int n) {
+    if (n <= 1) return false;
+    if (n <= 3) return true;
+    if (n % 2 == 0 || n % 3 == 0) return false;
+
+    for (int i = 5; i * i <= n; i += 6) {
+        if (n % i == 0 || n % (i + 2) == 0)
+            return false;
+    }
+    return true;
+}
+
+int main(void) {
+    int n = 29;
+    printf("%d is %s\n", n, isPrime(n) ? "Prime" : "Not Prime");
+    return 0;
+}
